@@ -18,8 +18,10 @@ const Students = (props) => {
                                                 { `${student.first_name} ${student.last_name}` } 
                                             </strong>
                                         </p>
-                                        <p className="students-phone">
+                                        <p className="students-email">
+                                        <strong>
                                             { student.email }
+                                            </strong>
                                         </p> 
                                         <Delete delete={ () => props.delete(index) } />
                                     </div>
