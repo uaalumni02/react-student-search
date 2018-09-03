@@ -29,7 +29,8 @@ class App extends Component {
   }
 
   componentDidMount() {
-    fetch('https://api.myjson.com/bins/gdwd8')
+    const api_url = 'https://api.myjson.com/bins/gdwd8';
+    fetch(api_url)
       .then(response => response.json())
       .then(students => this.setState({ students, allStudents: students }))
   }
