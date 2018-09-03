@@ -1,0 +1,21 @@
+.students-wrapper {
+    cursor: pointer;
+}
+.students-wrapper ul li {
+    list-style-type: none;
+}
+
+.students-brief {
+    margin: 0 auto;
+    float: none;
+    width: 400px;
+    height: 125px;
+    border: 2px solid #333;
+    margin-bottom: 5px;
+}
+
+.students-name {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    text-align: center;
+}
